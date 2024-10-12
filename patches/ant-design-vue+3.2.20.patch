@@ -1,0 +1,17 @@
+diff --git a/node_modules/ant-design-vue/es/select/index.js b/node_modules/ant-design-vue/es/select/index.js
+index b0190bb..16b7034 100644
+--- a/node_modules/ant-design-vue/es/select/index.js
++++ b/node_modules/ant-design-vue/es/select/index.js
+@@ -14,10 +14,10 @@ import { initDefaultProps } from '../_util/props-util';
+ export var selectProps = function selectProps() {
+   return _objectSpread(_objectSpread({}, omit(vcSelectProps(), ['inputIcon', 'mode', 'getInputElement', 'getRawInputElement', 'backfill'])), {}, {
+     value: {
+-      type: [Array, Object, String, Number]
++      type: [Array, Object, String, Number, Boolean]
+     },
+     defaultValue: {
+-      type: [Array, Object, String, Number]
++      type: [Array, Object, String, Number, Boolean]
+     },
+     notFoundContent: PropTypes.any,
+     suffixIcon: PropTypes.any,
