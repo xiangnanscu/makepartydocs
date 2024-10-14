@@ -28,6 +28,8 @@
     "add-g": "git remote add origin git@github.com:xiangnanscu/makepartydocs.git"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.670.0",
+    "@aws-sdk/lib-storage": "^3.670.0",
     "@vueuse/core": "^9.6.0",
     "@vueuse/integrations": "^9.11.0",
     "@xiangnanscu/docx": "^8.5.1",
@@ -44,6 +46,7 @@
     "primevue": "^3.29.1",
     "qrcode": "^1.5.1",
     "universal-cookie": "^7.2.0",
+    "uuid": "^10.0.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0",
     "xlsx": "https://cdn.sheetjs.com/xlsx-0.19.2/xlsx-0.19.2.tgz"
