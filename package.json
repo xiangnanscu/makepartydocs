@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "env": "dotenv -e .env -e .env.local --",
+    "upload": "yarn env node r2.mjs",
     "postinstall": "patch-package",
     "dev": "yarn env vite",
     "build": "NODE_ENV=production yarn env vite build",
