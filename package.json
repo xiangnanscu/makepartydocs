@@ -33,7 +33,7 @@
     "@aws-sdk/lib-storage": "^3.670.0",
     "@vueuse/core": "^9.6.0",
     "@vueuse/integrations": "^9.11.0",
-    "@xiangnanscu/docx": "^8.5.1",
+    "@xnscu/docx": "latest",
     "@xnscu/xlsx-template": "^1.4.5",
     "ant-design-vue": "3.2.20",
     "axios": "^1.2.1",
